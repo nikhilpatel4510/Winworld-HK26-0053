@@ -1,0 +1,43 @@
+# Compiled Java files
+*.class
+
+# Maven build output
+target/
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# H2 database files - local development data
+data/
+*.mv.db
+*.trace.db
+
+# Test output
+surefire-reports/
+
+# Java crash logs
+hs_err_pid*
